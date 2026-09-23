@@ -1,0 +1,171 @@
+Colfinder v.1.0 - Copyright(C) 2026 Matteo Zapparoli
+Testing Sirius128 (seed x = UINT64_MAX, y = UINT64_MAX)
+Sample size: 16 billions
+
+Block 1/32
+Length: 499979557
+Elapsed time: 00:01:06
+
+Block 2/32
+Length: 500033577
+Elapsed time: 00:02:12
+Remaining time: 00:33:00
+
+Block 3/32
+Length: 500010559
+--------> Collision: 15276920320760191106
+Elapsed time: 00:03:18
+Remaining time: 00:31:54
+
+Block 4/32
+Length: 499985107
+--------> Collision: 6672007205941415843
+Elapsed time: 00:04:24
+Remaining time: 00:30:48
+
+Block 5/32
+Length: 500000680
+Elapsed time: 00:05:29
+Remaining time: 00:29:15
+
+Block 6/32
+Length: 499983112
+Elapsed time: 00:06:35
+Remaining time: 00:28:10
+
+Block 7/32
+Length: 500012976
+Elapsed time: 00:07:41
+Remaining time: 00:27:05
+
+Block 8/32
+Length: 499984918
+Elapsed time: 00:08:47
+Remaining time: 00:26:00
+
+Block 9/32
+Length: 499991494
+--------> Collision: 12316043599946764072
+Elapsed time: 00:09:52
+Remaining time: 00:24:55
+
+Block 10/32
+Length: 500008588
+--------> Collision: 2368705348929474697
+Elapsed time: 00:10:58
+Remaining time: 00:23:50
+
+Block 11/32
+Length: 499991385
+Elapsed time: 00:12:02
+Remaining time: 00:22:45
+
+Block 12/32
+Length: 499998368
+Elapsed time: 00:13:07
+Remaining time: 00:21:40
+
+Block 13/32
+Length: 500010877
+Elapsed time: 00:14:11
+Remaining time: 00:20:35
+
+Block 14/32
+Length: 499990670
+Elapsed time: 00:15:16
+Remaining time: 00:19:30
+
+Block 15/32
+Length: 500002998
+Elapsed time: 00:16:21
+Remaining time: 00:18:25
+
+Block 16/32
+Length: 499998739
+--------> Collision: 7026636425575395695
+Elapsed time: 00:17:26
+Remaining time: 00:17:20
+
+Block 17/32
+Length: 499985459
+Elapsed time: 00:18:31
+Remaining time: 00:16:15
+
+Block 18/32
+Length: 499970651
+Elapsed time: 00:19:35
+Remaining time: 00:15:10
+
+Block 19/32
+Length: 499991612
+Elapsed time: 00:20:41
+Remaining time: 00:14:05
+
+Block 20/32
+Length: 500005446
+Elapsed time: 00:21:46
+Remaining time: 00:13:00
+
+Block 21/32
+Length: 500022517
+--------> Collision: 5084121267260099508
+Elapsed time: 00:22:50
+Remaining time: 00:11:55
+
+Block 22/32
+Length: 500033579
+Elapsed time: 00:23:54
+Remaining time: 00:10:50
+
+Block 23/32
+Length: 499979516
+Elapsed time: 00:24:59
+Remaining time: 00:09:45
+
+Block 24/32
+Length: 499999614
+Elapsed time: 00:26:03
+Remaining time: 00:08:40
+
+Block 25/32
+Length: 500012862
+Elapsed time: 00:27:08
+Remaining time: 00:07:35
+
+Block 26/32
+Length: 500030075
+Elapsed time: 00:28:13
+Remaining time: 00:06:30
+
+Block 27/32
+Length: 499993055
+Elapsed time: 00:29:17
+Remaining time: 00:05:25
+
+Block 28/32
+Length: 499991917
+Elapsed time: 00:30:21
+Remaining time: 00:04:20
+
+Block 29/32
+Length: 499997191
+Elapsed time: 00:31:26
+Remaining time: 00:03:15
+
+Block 30/32
+Length: 500022242
+Elapsed time: 00:32:31
+Remaining time: 00:02:10
+
+Block 31/32
+Length: 499993342
+Elapsed time: 00:33:36
+Remaining time: 00:01:05
+
+Block 32/32
+Length: 499987317
+Elapsed time: 00:34:40
+Remaining time: 00:00:00
+
+SUCCESS: Found 6 collisions compatible with the expected number of collisions 6.94
+
