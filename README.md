@@ -1,5 +1,21 @@
-Work in progress...
-Please wait, it will available in 2027
+# Sirius128 Pseudo-Random Number Generator
+Sirius128 is a ultra-fast, robust pseudo-random number generator (PRNG) designed for high-performance applications, simulations, and games. 
+
+```C
+typedef struct {
+	uint64_t x;
+	uint64_t y;
+} sirius128_state_t;
+
+uint64_t sirius128(sirius128_state_t *state)
+{
+	state->x += 0xf39cc0605cedc835ull;
+	state->y += 0x9e3779b97f4a7c15ull + (state->x < 0xf39cc0605cedc835ull);
+	uint64_t z = 0x9e3779b97f4a7c15ull * (state->y ^ (state->y >> 17));
+	z = (z << 32) | (z >> 32);
+	return 0x9e3779b97f4a7c15ull * (state->x ^ z ^ (z >> 17));
+}
+```
 
 ## Collision Count
 Ten independent collision-counting runs were performed using different initial seeds. Exact collision counts were measured using **ColFinder**, an open-source tool developed specifically for large-scale PRNG collision analysis.
